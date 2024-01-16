@@ -1,0 +1,40 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate && npx cap sync",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^5.6.0",
+    "@nuxtjs/supabase": "^1.1.5",
+    "@nuxtjs/tailwindcss": "^6.10.3",
+    "@vant/nuxt": "^1.0.4",
+    "nuxt": "^3.9.0",
+    "nuxt3-leaflet": "^1.0.12",
+    "typescript": "^5.3.3",
+    "vant": "^4.8.2",
+    "vue": "^3.4.5",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@capacitor/android": "^5.6.0",
+    "@capacitor/app": "^5.0.6",
+    "@capacitor/background-runner": "^1.0.5",
+    "@capacitor/core": "^5.6.0",
+    "@capacitor/geolocation": "^5.0.6",
+    "@capacitor/haptics": "^5.0.6",
+    "@capacitor/ios": "^5.6.0",
+    "@capacitor/local-notifications": "^5.0.6",
+    "@nuxt/ui": "^2.11.1",
+    "@pinia/nuxt": "^0.5.1",
+    "leaflet": "^1.9.4",
+    "pinia": "^2.1.7",
+    "random-location": "^1.1.3",
+    "yup": "^1.3.3"
+  }
+}

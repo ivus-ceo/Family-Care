@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ivus</string>
+    <string name="title_activity_main">ivus</string>
+    <string name="package_name">com.ivus.us</string>
+    <string name="custom_url_scheme">com.ivus.us</string>
+</resources>
